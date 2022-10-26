@@ -1,4 +1,5 @@
-.menu-wrapper{
+.menu{
     width: 300px;
-    background-color: beige;
+    height: 100%;
+    box-shadow: 5px 0px 8px -5px #A8A8A8;
 }

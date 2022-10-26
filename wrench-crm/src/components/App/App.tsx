@@ -5,9 +5,9 @@ import Menu from '../Menu/menu';
 import Main from '../Main/main';
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <Header/>
-      <div className='Wrapper'>
+      <div className='wrapper'>
         <Menu/>
         <Main/>
       </div>

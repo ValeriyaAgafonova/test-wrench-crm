@@ -2,8 +2,8 @@ import './menu.css';
 
 function Menu() {
     return (
-      <div className="menu-wrapper">
-      </div>
+      <aside className="menu">
+      </aside>
     );
   }
   

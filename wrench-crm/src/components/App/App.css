@@ -1,4 +1,16 @@
-.Wrapper{
+@font-face {
+  font-family: MontSerrat-700;
+  src: url(/public/fonts/Montserrat/static/Montserrat-Bold.ttf);
+}
+@font-face {
+  font-family: MontSerrat-600;
+  src: url(/public/fonts/Montserrat/static/Montserrat-SemiBold.ttf);
+}
+@font-face {
+  font-family: MontSerrat-500;
+  src: url(/public/fonts/Montserrat/static/Montserrat-Medium.ttf);
+}
+
+.wrapper{
   display: flex;
-  
 }

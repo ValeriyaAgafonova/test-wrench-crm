@@ -1,8 +1,8 @@
 import './main.css';
 function Main() {
     return (
-      <div className="main-wrapper">
-      </div>
+      <section className="main">
+      </section>
     );
   }
   
