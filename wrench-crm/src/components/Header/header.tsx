@@ -1,7 +1,10 @@
+import './header.css';
+
 function Header() {
     return (
-      <div className="App">
-      </div>
+      <header className="header-wrapper">
+
+      </header>
     );
   }
   
