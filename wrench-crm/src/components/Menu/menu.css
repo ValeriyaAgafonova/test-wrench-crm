@@ -1,5 +1,15 @@
 .menu{
     width: 300px;
-    height: 100%;
     box-shadow: 5px 0px 8px -5px #A8A8A8;
+    padding-top: 24px;
+}
+.menu__heading{
+    font-family: Montserrat-700;
+    font-size: 20px;
+    line-height: 1.2;
+}
+.menu__list{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
 }

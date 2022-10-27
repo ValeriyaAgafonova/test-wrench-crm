@@ -12,5 +12,7 @@
 }
 
 .wrapper{
-  display: flex;
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  padding: 0 32px;
 }

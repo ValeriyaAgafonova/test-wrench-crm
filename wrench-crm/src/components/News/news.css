@@ -1,0 +1,9 @@
+.news{
+    /* height: calc(100vh - 80px); */
+   
+}
+.news__text{
+    font-family: Montserrat-500;
+    height: 100%;
+  
+}

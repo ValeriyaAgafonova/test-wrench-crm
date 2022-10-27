@@ -1,12 +1,23 @@
-import './menuItem.css';
+import { useState } from 'react';
+import './MenuItem.css';
 
-function MenuItem(props) {
 
+export interface IMenuItem {
+name: string,
+url: string,
+id: number
+}
+
+function MenuItem({name, url, id}: IMenuItem) {
+     const [current, setCurrent] = useState(1)
+     function changeCurrent(currentId: number){
+          setCurrent(currentId)
+     }
     return (
-     <div className='menu__item'>
-<object type="image/svg+xml" data={props.url} title="person-icon"></object>
-<h3>{props.name}</h3>
-     </div>
+<li className='menu__item' onClick={() => changeCurrent(id)}>
+     <img src={url} alt={name}/>
+    <h3>{name}</h3>
+         </li> 
     );
   }
   
