@@ -1,0 +1,32 @@
+.address__heading {
+  font-family: Montserrat-700;
+  font-size: 26px;
+  line-height: 1.2;
+}
+.address__underHeading,
+.address__input {
+  font-family: Montserrat-500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+.address__form {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+}
+.address__input {
+  box-sizing: border-box;
+  width: 90%;
+  height: 70px;
+  border: 3px solid #4f27bf;
+  border-radius: 10px;
+  padding: 24px;
+}
+.address__button {
+  height: 70px;
+  width: 217px;
+  background-color: #4f27bf;
+  border-radius: 10px;
+  font-family: Montserrat-700;
+  font-size: 26px;
+  color: white;
+}
