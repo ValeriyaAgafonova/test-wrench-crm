@@ -6,3 +6,9 @@
     overflow-x: hidden;
     scroll-behavior: smooth;
 }
+
+@media (max-width: 768px) {
+    .main{
+  padding-left: 0;
+    }
+  }

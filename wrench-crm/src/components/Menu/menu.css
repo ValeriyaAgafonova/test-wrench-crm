@@ -16,3 +16,10 @@
     flex-direction: column;
     gap: 40px;
 }
+
+
+@media (max-width: 768px) {
+  .menu{
+      display: none;
+  }
+}

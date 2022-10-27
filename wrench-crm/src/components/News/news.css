@@ -1,15 +1,22 @@
-.news__heading{
-    font-family: Montserrat-700;
-    font-size: 26px;
-    line-height: 1.2;
-    margin: 0 0 16px;
+.news__heading {
+  font-family: Montserrat-700, Arial, Helvetica, sans-serif;
+  font-size: 26px;
+  line-height: 1.2;
+  margin: 0 0 16px;
 }
 .news__text,
-.news__underHeading{
-    font-family: Montserrat-500;
-    font-size: 20px;
-    line-height: 1.2;
+.news__underHeading {
+  font-family: Montserrat-500, Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  line-height: 1.2;
 }
-.news__underHeading{
-    margin-bottom: 36px;
+.news__underHeading {
+  margin-bottom: 36px;
+}
+
+@media (max-width: 420px) {
+  .news__text,
+  .news__underHeading {
+    font-size: 18px;
+  }
 }
