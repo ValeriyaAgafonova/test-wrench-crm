@@ -24,7 +24,7 @@ fetch(url, {
         "Accept": "application/json",
         "Authorization": "Token " + apiKey
     },
-    body: JSON.stringify({query: query})
+    body: JSON.stringify({query: query, count: 20})
 })
 .then(response => response.text())
 .then(result => setData(JSON.parse(result).suggestions))
@@ -73,9 +73,10 @@ setQuery(event.target.value)
       {inputFlag && <span>Не менее 3х символов</span>}
 
       {data.length !== 0 && 
-      <div>
+      <div className="address__list">
+        <h4 className="address__subHeading">Адреса</h4>
         {data.map(item => (
-          <p key={item.value}>{item.unrestricted_value}</p>
+          <p className="address__item" key={item.value}>{item.unrestricted_value}</p>
         ))}
         </div>}
     </div>
