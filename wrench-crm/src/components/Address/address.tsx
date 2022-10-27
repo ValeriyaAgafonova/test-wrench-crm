@@ -1,5 +1,5 @@
 import { ChangeEvent, FormEvent, useState } from "react";
-import "./adress.css";
+import "./address.css";
 
 const apiKey: string = "36d89efe767f2deaca538d72ad3a1633f3704ad0";
 const url: string =

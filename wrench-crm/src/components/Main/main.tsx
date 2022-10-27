@@ -1,10 +1,13 @@
 import './Main.css';
-import News from '../News/news';
-import Address from '../Address/adress';
-function Main() {
+import { FC, PropsWithChildren, ReactNode } from 'react';
+
+
+
+
+const Main: FC<PropsWithChildren> = (props) => {
     return (
       <section className="main">
-          <Address/>
+          {props.children}
       </section>
     );
   }
