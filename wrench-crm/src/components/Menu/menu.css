@@ -1,5 +1,8 @@
 .menu{
     width: 300px;
+    height: calc(100vh - 120px);
+    overflow-x: hidden;
+    scroll-behavior: smooth;
     box-shadow: 5px 0px 8px -5px #A8A8A8;
     padding-top: 24px;
 }

@@ -1,9 +1,15 @@
-.news{
-    /* height: calc(100vh - 80px); */
-   
+.news__heading{
+    font-family: Montserrat-700;
+    font-size: 26px;
+    line-height: 1.2;
+    margin: 0 0 16px;
 }
-.news__text{
+.news__text,
+.news__underHeading{
     font-family: Montserrat-500;
-    height: 100%;
-  
+    font-size: 20px;
+    line-height: 1.2;
+}
+.news__underHeading{
+    margin-bottom: 36px;
 }
