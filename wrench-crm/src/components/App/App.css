@@ -11,14 +11,15 @@
   src: url(/public/fonts/Montserrat/static/Montserrat-Medium.ttf);
 }
 
-.wrapper{
+.wrapper {
   display: grid;
   grid-template-columns: 300px 1fr;
   padding: 0 32px;
+  position: relative;
 }
 
 @media (max-width: 768px) {
-  .wrapper{
-    grid-template-columns:1fr;
+  .wrapper {
+    grid-template-columns: 1fr;
   }
 }

@@ -1,14 +1,17 @@
-.main{
-    flex-grow: 1;
-    padding-top: 32px;
-    padding-left: 32px;
-    height: calc(100vh - 120px);
-    overflow-x: hidden;
-    scroll-behavior: smooth;
+.main {
+  flex-grow: 1;
+  padding-top: 32px;
+  padding-left: 32px;
+  height: calc(100vh - 120px);
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+.main__menu-button {
+  display: none;
 }
 
 @media (max-width: 768px) {
-    .main{
-  padding-left: 0;
-    }
+  .main {
+    padding-left: 0;
   }
+}

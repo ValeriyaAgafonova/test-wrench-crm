@@ -1,27 +1,26 @@
-.menu__item{
-    display: grid;
-    grid-template-columns: 50px 1fr;
-    align-items: center;
-    font-family: MontSerrat-600;
-    cursor: pointer;
-   
+.menu__item {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  align-items: center;
+  font-family: MontSerrat-600;
+  cursor: pointer;
 }
-.menu__inner-list{
-    margin-left: 50px;
+.menu__inner-list {
+  margin-left: 50px;
 }
-.menu__inner-item{
-    display: grid;
-    grid-template-columns: 50px 1fr;
-    align-items: center;
-    font-family: MontSerrat-600;
-    cursor: pointer;
+.menu__inner-item {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  align-items: center;
+  font-family: MontSerrat-600;
+  cursor: pointer;
 }
-.menu__item-active{
-    background-color: antiquewhite;
-   
+.menu__item-active {
+  border-right: 5px solid #4f27bf;
 }
-.menu__item-navLink{
-    list-style: none;
-    text-decoration: none;
-    color: black;
+
+.menu__item-navLink {
+  list-style: none;
+  text-decoration: none;
+  color: black;
 }

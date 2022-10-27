@@ -7,14 +7,16 @@ export interface IMenuItem {
   url: string;
   id: number;
   pathName: string;
+  closeMenu: () => void;
 }
 
-function MenuItem({ name, url, id, pathName }: IMenuItem) {
+function MenuItem({ name, url, id, pathName, closeMenu }: IMenuItem) {
   const [current, setCurrent] = useState<number>(1);
   const [openSet, setOpen] = useState<boolean>(false);
 
   function changeCurrent(currentId: number) {
     setCurrent(currentId);
+    closeMenu();
     if (currentId === 7) {
       setOpen(!openSet);
     }
