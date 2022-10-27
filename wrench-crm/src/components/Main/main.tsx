@@ -4,7 +4,7 @@ import Address from '../Address/adress';
 function Main() {
     return (
       <section className="main">
-          <Address/>
+          <News/>
       </section>
     );
   }
