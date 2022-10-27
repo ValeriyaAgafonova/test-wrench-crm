@@ -3,7 +3,7 @@ import "./App.css";
 import Header from "../Header/header";
 import Menu from "../Menu/menu";
 import Main from "../Main/main";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
 import Address from "../Address/address";
 import News from "../News/news";
 
